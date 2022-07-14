@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+p,
+span,
+small {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* common CSS part */
+
+.link-button {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px 30px;
+    background: #d63031;
+    color: #fff;
+    border-radius: 50px;
+}
+
+/* header section CSS */
+
+.header-section {
+    height: 100vh;
+    background: url(./images/./donation0.jpg) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+}
+
+.header-section::after {
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .2);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -100;
+}
+
+.header-left {
+    width: 38%;
+}
+
+.header-right {
+    width: 30%;
+}
+
+.common-header-section h1 {
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.common-header-section p {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.artical-section {
+    width: 90%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.artical-section-left {
+    width: 40%;
+}
+
+.artical-section-left h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.artical-section-left p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #9B9B9B;
+}
+
+.artical-section-right {
+    width: 35%;
+}
+
+.artical-section-right iframe {
+    width: 100%;
+}
+
+/* artical section two CSS */
+
+.artical-section-two {
+    width: 90%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.artical-section-two-left {
+    width: 35%;
+}
+
+.artical-section-two-left img {
+    width: 100%;
+}
+
+.artical-section-two-right {
+    width: 40%;
+}
+
+.artical-section-two-right h1 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.artical-section-two-right p {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: #9B9B9B;
+}
